@@ -8,6 +8,7 @@ addProject('snake')
 addProject('tetris')
 addProject('connect-four')
 addProject('crossword-puzzle')
+addProject('color-picker')
 
 document.querySelectorAll('.list').forEach((item) => {
     item.onclick = () => {

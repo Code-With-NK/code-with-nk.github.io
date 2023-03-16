@@ -1,6 +1,14 @@
 let bgNum = 1
 const container = document.querySelector('.project-container')
 
+addProject('ludo')
+addProject('memory-puzzle')
+addProject('2048')
+addProject('snake')
+addProject('tetris')
+addProject('connect-four')
+addProject('crossword-puzzle')
+addProject('color-picker')
 
 document.querySelectorAll('.list').forEach((item) => {
     item.onclick = () => {
